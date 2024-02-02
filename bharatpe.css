@@ -1,0 +1,413 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    justify-content: center;
+}
+.topbar{
+    display: flex;
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    top: 0;
+}
+.topbar .logo img{
+    height: 5vh;
+    width: 12vw;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+.topbar button{
+    /* margin-left: 20vw; */
+    margin-right: 10px;
+    height: 35px;
+    width: 95px;
+    margin-top: 10px;
+    color: #2B7BFF;
+    background-color: #f8f8f8;
+    border-radius: 5px !important;
+    border-color: #2B7BFF;
+}
+.sidebar{
+    margin-left: 8vw;
+    margin-top: 5px;
+    /* margin-right: 20vw; */
+    text-decoration: none;
+    align-items: center;
+    width: 100%;
+}
+.sidebar li{
+    list-style: none;
+    float: left;
+    /* margin-left: 20px; */
+    color: white;
+    /* font-size: 20px; */
+    font-weight: 600;
+    /* margin: 10px; */
+    /* margin-left: 30px; */
+}
+
+.sidebar li a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    padding: 30px 20px 30px 20px;
+    font-weight: 700;
+}
+.maincontainer .main .images img{
+    height: 40px;
+    width: 180px;
+    padding: 5px;
+    background-color: white;
+}
+.maincontainer{
+    display: flex;
+    /* text-align: center; */
+    margin-top: 12vh;
+    margin-left: 17vw;
+    margin-right: 17vw;
+    margin-bottom: 30px;
+    height: 80vh;
+}
+.maincontainer img{
+    height: 65vh;
+    width: 30vw;
+    border-radius: 20px;
+}
+.main{
+    margin-right: 5px;
+}
+.main h1{
+    font-size: 60px;
+    display: block;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    color: #1C1C1C;
+    /* font-size: 60px; */
+    line-height: 65px;
+    /* padding-top: 15px; */
+    animation-name: fadein1;
+    animation-duration: 2s;
+}
+@keyframes fadein1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.main p{
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    animation-name: fadein2;
+    animation-duration: 2s;
+}
+
+@keyframes fadein2{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.main .images img{
+    animation-name: fadein3;
+    animation-duration: 2s;
+}
+@keyframes fadein3{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.mainimg{
+    animation-name: fadein4;
+    animation-duration: 2s;
+}
+@keyframes fadein4 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#b1{
+    animation-name: fade1;
+    animation-duration: 2s;
+}
+@keyframes fade1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#b2{
+    animation-name: fade2;
+    animation-duration: 2s;
+    /* animation-delay: 1s; */
+}
+@keyframes fade2{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#b3{
+    animation-name: fade3;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+}
+@keyframes fade3{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#b4{
+    animation-name: fade4;
+    animation-duration: 2s;
+    /* animation-delay: 3s; */
+}
+@keyframes fade4{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.mid{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    height: 70vh;
+}
+.mid .mainn{
+    padding-top: 10vh;
+}
+.mid .mainn h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 0;
+    font-family: 'Poppins';
+}
+.mid .mainn h4{
+    font-family: 'Poppins';
+}
+.box{
+    display: inline-block;
+}
+.lower{
+    text-align: center;
+    padding-top: 8vh;
+    height: 90vh;
+    font-family: 'Poppins';
+}
+.low{
+    margin-left: 17vw;
+    margin-right: 17vw;
+}
+.lower .low h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.lower .low h4{
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.lower .low .boxx img{
+    height: 35vh;
+    width: 35vw;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.boxx{
+    display: flex;
+    text-align: left;
+}
+.boxx h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.boxx p{
+    /* font-size: larger; */
+    margin-top: -20px;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.text{
+    display: block;
+}
+.offering{
+    text-align: center;
+    padding: 10vh;
+    /* display: flex; */
+}
+.offering h1{
+    margin-bottom: 80px;
+    font-weight: 900;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.offering .postpe_logo img{
+    height: 65vh;
+    margin-right: 25px;
+}
+.postpe_logo{
+    display: flex;
+    margin-left: 5vw;
+}
+.postpe_logo .postpe img{
+    height: 8vh;
+    width: 18vw;
+}
+.postpe_logo .postpe h4{
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 36px; */
+}
+.postpe_logo .postpe p{
+    font-weight: 500;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.postpe{
+    display: block;
+}
+.more{
+    display: flex;
+    margin-top: 20px;
+}
+.postpe .more img{
+    height: 50px;
+    width: 50px;
+}
+.merchants{
+    text-align: center;
+}
+.merchants h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 0;
+    margin-bottom: 10vh;
+}
+.merchants .full{
+    display: flex;
+}
+.merchants .full .textt{
+    margin: 20px;
+    margin-left: 10vw;
+}
+.merchants .textt img{
+    border-radius: 100%;
+}
+.merchants .textt h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    /* text-align: center; */
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+.merchants .textt p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* text-align: center; */
+    letter-spacing: .15px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+.last{
+    background-color: #000000;
+    height: 90vh;
+    padding-top: 20vh;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.ll{
+    /* text-decoration: none;
+    list-style: none; */
+    color: #f8f8f8;
+    display: flex;
+    /* height: 80vh; */
+    margin-bottom: 10vh;
+}
+.last1{
+    width: 40vw;
+}
+.last2 .l ul li{
+    list-style: none;
+}
+.last2 li a{
+    text-decoration: none;
+    color: #f8f8f8;
+
+}
+.ll li a{
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.last3 ul li{
+    list-style: none;
+}
+.last3 li a{
+    text-decoration: none;
+    color: #f8f8f8;
+
+}
+.last4 ul li{
+    list-style: none;
+}
+.last4 li a{
+    text-decoration: none;
+    color: #f8f8f8;
+
+}
+.lastt{
+    background-color: #000000;
+}
+.lastt h3{
+    color: #f8f8f8;
+}
+.lastt .imgg img{
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.imgs{
+    height: 10vh;
+    margin-left: -10px;
+    margin-top: 30px;
+    /* margin-top: 40px; */
+}
+.imgs img{
+    margin-left: 30px;
+    /* width: 30px; */
+}
+.ends{
+    background-color: #000000;
+    height: 5vh;
+    color: #f8f8f8;
+    margin-top: 10px;
+}
